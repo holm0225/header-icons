@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
   font-size: 1.125rem;
 }
@@ -19,7 +19,6 @@ img {
 
 header {
   background-color: #d05c2e;
-  font-size: 2rem;
 }
 
 div {
@@ -38,6 +37,7 @@ nav ul {
   display: flex;
   font-weight: normal;
   justify-content: space-around;
+  font-size: 1.125rem;
 }
 
 a {
@@ -48,4 +48,9 @@ a {
   border-right: 1px solid #a63f38;
   display: flex;
   justify-content: space-between;
+}
+
+a:hover {
+  color: #d05c2e;
+  background-color: #a63f38;
 }
